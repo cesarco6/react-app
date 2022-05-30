@@ -40,7 +40,7 @@ let pages = fs_e.readdirSync('./app').filter(function(file) {
 
 
 let config = {
-  entry: './app/assets/scripts/App.js',
+  entry: './app/assets/scripts/Main.js',
   plugins: pages,
   module: {
       rules:[
